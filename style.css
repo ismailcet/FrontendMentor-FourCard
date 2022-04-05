@@ -142,13 +142,17 @@ a{
        font-size: 1.5rem;
    }
    .boxes{
-       width: 909px;
+       width: 1110px;
        margin-left: auto;
        margin-right: auto;
        display: grid;
        justify-content: center;
        align-items: center;
        grid-gap: 1.25rem;
+   }
+   .box{
+    height: 250px;
+    width: 350px
    }
    .cyan{
     grid-column-start: 1;
